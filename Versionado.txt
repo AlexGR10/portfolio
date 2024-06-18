@@ -1,0 +1,30 @@
+Versionado Semántico (SemVer)
+El versionado semántico (SemVer) es una convención para numerar las versiones de software de una manera que refleje los cambios realizados en el mismo. Se utiliza para comunicar de forma clara y concisa a los usuarios, desarrolladores y otras partes interesadas la naturaleza de los cambios realizados en una nueva versión.
+
+El formato SemVer se compone de tres números separados por puntos:
+
+Mayor: Representa cambios incompatibles que introducen nuevas funcionalidades o rompen la compatibilidad con versiones anteriores.
+Menor: Representa cambios compatibles que agregan nuevas funcionalidades sin romper la compatibilidad con versiones anteriores.
+Parche: Representa correcciones de errores o mejoras menores que no afectan la compatibilidad con versiones anteriores.
+Un ejemplo de un número de versión SemVer es 2.0.1. En este caso:
+
+2: Indica que se trata de una versión principal importante.
+0: Indica que no se han realizado cambios menores importantes desde la versión 2.0.0.
+1: Indica que se ha realizado una corrección de errores o una mejora menor desde la versión 2.0.0.
+Las reglas básicas de SemVer son las siguientes:
+
+Incrementar la versión mayor: Se realiza cuando se introducen cambios incompatibles que rompen la compatibilidad con versiones anteriores.
+Incrementar la versión menor: Se realiza cuando se agregan nuevas funcionalidades compatibles sin romper la compatibilidad con versiones anteriores.
+Incrementar la versión parche: Se realiza cuando se realizan correcciones de errores o mejoras menores que no afectan la compatibilidad con versiones anteriores.
+Aquí hay algunos ejemplos de cómo se utiliza SemVer:
+
+Versión 1.0.0: Versión inicial del software.
+Versión 1.1.0: Se agrega una nueva funcionalidad compatible.
+Versión 1.2.3: Se corrigen tres errores y se realizan algunas mejoras menores.
+Versión 2.0.0: Se introduce un cambio incompatible que rompe la compatibilidad con versiones anteriores.
+Versión 2.1.1: Se agrega una nueva funcionalidad compatible y se corrige un error.
+Las ventajas de utilizar SemVer son las siguientes:
+
+Comunicación clara: Permite a los usuarios, desarrolladores y otras partes interesadas comprender fácilmente la naturaleza de los cambios realizados en una nueva versión.
+Compatibilidad: Ayuda a garantizar que las diferentes versiones del software sean compatibles entre sí.
+Planificación de actualizaciones: Facilita la planificación de actualizaciones y la gestión de dependencias.
